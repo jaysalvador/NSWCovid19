@@ -1,0 +1,1234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B28AF4E12913AC5EEBAF7499182DF0B /* AbstractDiffCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0399113723B81D123442D77CF5895AFB /* AbstractDiffCalculator.swift */; };
+		1122263BC71B92EE1D1AA83C678E2BB4 /* Pods-NSW Covid19UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B56250EC89890941323C027EC5A7ABA /* Pods-NSW Covid19UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADD9D0AD5F0657B7809864B756BC155 /* SectionedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BD2367EAB63454F35F758AD5B6E64 /* SectionedValues.swift */; };
+		20594F861AC525C6367171EC1A85A410 /* Pods-NSW Covid19-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 672318389292E1C92D0DD4B6EAD6C6CE /* Pods-NSW Covid19-dummy.m */; };
+		251FBFD88BB6F8B33F9F27FF1044E6D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4452A4C261337D00D753E7E3A12B8506 /* Dwifft+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C2D63837D55D28BF8892D5F9E447E /* Dwifft+AppKit.swift */; };
+		61D47408D75BF63F1B67AE855F168ECF /* Pods-NSW Covid19Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FB9884915A833BD3E8C68E1CC812 /* Pods-NSW Covid19Tests-dummy.m */; };
+		66E735FF06E6D5F111C4F6F82FEF8A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69E49A01811CF8FA1FE92981ABB9067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7D98B888ACA1822CD885AE930EB9F1DA /* Dwifft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E0A39A5594761EF21F287FD2B1AD68 /* Dwifft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		894969C74BE3934962FF7FCBBC0BF161 /* Dwifft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA504A51AA1C2773E92D2A78994C98F /* Dwifft.swift */; };
+		8C9FAEA1FF3B7FEF9E5BFE3057842374 /* Pods-DataNSW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D16D348BCCDA5307C5A5BBB09D7CCE5 /* Pods-DataNSW-dummy.m */; };
+		8F958A757695F959363483AF5B109D64 /* Dwifft+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F0BCADDAB3616D77A1E146D4E24C8 /* Dwifft+UIKit.swift */; };
+		BF45CC57DBBA3941720AA1EF1F57A853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D88075022B51C43AAA7169ACF1C559BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD1FCEE2D10ED66B7CEE38FAABAC0B83 /* Pods-NSW Covid19UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D56A6D6096D3F9E8B863494AB85BB28 /* Pods-NSW Covid19UITests-dummy.m */; };
+		DF3B83C81214CC3290255C922E55DDF1 /* Dwifft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50AB0C979100AC648C983788523D42 /* Dwifft-dummy.m */; };
+		DF933AA662AA3502928EEE9BD21EF94D /* Pods-NSW Covid19Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B8917147DAEC30F90EDE08F6109ED4 /* Pods-NSW Covid19Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E590D4C6AB3AD9C2826A8F68D9F501B5 /* Pods-NSW Covid19-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFE7B26E63BF44EFB7A0924B395E717 /* Pods-NSW Covid19-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82053C07A1DC8B2A74A382F10232A6B /* Pods-DataNSW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2F586461F5055582390FBF7A671895 /* Pods-DataNSW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EC29298ABAB502DC0EBA634653EC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F03A8CC6626DE090DF1E9ED38C4C22;
+			remoteInfo = "Pods-NSW Covid19";
+		};
+		24A188E2DB407E499214D3D35FCDAB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4255A53C9FC46E2A6605D689307219F6;
+			remoteInfo = Dwifft;
+		};
+		40D16626CAFC55559AA959CEAEB9E569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		9797F4AFFBE69B9DCB94BA89E7B3ABC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F03A8CC6626DE090DF1E9ED38C4C22;
+			remoteInfo = "Pods-NSW Covid19";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01111D2D1284B6C20AA9639B650AEEA0 /* Pods_NSW_Covid19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSW_Covid19UITests.framework; path = "Pods-NSW Covid19UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0399113723B81D123442D77CF5895AFB /* AbstractDiffCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractDiffCalculator.swift; path = Dwifft/AbstractDiffCalculator.swift; sourceTree = "<group>"; };
+		15E92C56D8AB2FF08DEA4B70FB585FBD /* Pods-NSW Covid19Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSW Covid19Tests.modulemap"; sourceTree = "<group>"; };
+		1C2F586461F5055582390FBF7A671895 /* Pods-DataNSW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataNSW-umbrella.h"; sourceTree = "<group>"; };
+		1FFCA3D44BF3986155E5B6A08E3F3F99 /* Pods_DataNSW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DataNSW.framework; path = "Pods-DataNSW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		244CF42985B3452F509CEA3BD60F8C11 /* Pods-NSW Covid19.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSW Covid19.modulemap"; sourceTree = "<group>"; };
+		261237C003567AA0434A50AD8D351FCD /* Pods-NSW Covid19UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A24FB9884915A833BD3E8C68E1CC812 /* Pods-NSW Covid19Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSW Covid19Tests-dummy.m"; sourceTree = "<group>"; };
+		2D16D348BCCDA5307C5A5BBB09D7CCE5 /* Pods-DataNSW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataNSW-dummy.m"; sourceTree = "<group>"; };
+		31AB76BC2DFB05718C5844D65112EBA9 /* Dwifft.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dwifft.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		380F721BDB143DC1AC2CF0AC6A65FB27 /* Pods-DataNSW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataNSW-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B9C2D63837D55D28BF8892D5F9E447E /* Dwifft+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+AppKit.swift"; path = "Dwifft/Dwifft+AppKit.swift"; sourceTree = "<group>"; };
+		3E24F92A442537D23495971B0135EAE9 /* Pods-NSW Covid19Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E3738E8887AF25BE68D45BF56BC5F8D /* Pods-NSW Covid19-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19-Info.plist"; sourceTree = "<group>"; };
+		44650D54E3BE944D6E249CAF18AA95A3 /* Pods_NSW_Covid19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSW_Covid19Tests.framework; path = "Pods-NSW Covid19Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BCFE696B2DA5A93F7D6D6184A421A0 /* Pods-NSW Covid19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD4034A57CA98F161DE3E82FC0E9935 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		4E87748B72C348B6E6A84A680E22C358 /* Pods-NSW Covid19UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52E0A39A5594761EF21F287FD2B1AD68 /* Dwifft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-umbrella.h"; sourceTree = "<group>"; };
+		672318389292E1C92D0DD4B6EAD6C6CE /* Pods-NSW Covid19-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSW Covid19-dummy.m"; sourceTree = "<group>"; };
+		68F8B7F771D0A145B2B926B4BF36FA58 /* Dwifft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dwifft.modulemap; sourceTree = "<group>"; };
+		719E415CF36D47BAC2B49D5FCBE95C25 /* Pods_NSW_Covid19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSW_Covid19.framework; path = "Pods-NSW Covid19.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724574951B5EED853679B4145A6255AF /* Pods-NSW Covid19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7521995B09A1B704CD5CB3AAC2EB7002 /* Pods-NSW Covid19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19.debug.xcconfig"; sourceTree = "<group>"; };
+		7B56250EC89890941323C027EC5A7ABA /* Pods-NSW Covid19UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSW Covid19UITests-umbrella.h"; sourceTree = "<group>"; };
+		7D54AD5A31807C6C3CFB082BBBA05847 /* Pods-NSW Covid19UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSW Covid19UITests.modulemap"; sourceTree = "<group>"; };
+		89767B21733B1A13F382F975BFFAF2D8 /* Pods-NSW Covid19Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSW Covid19Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D56A6D6096D3F9E8B863494AB85BB28 /* Pods-NSW Covid19UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSW Covid19UITests-dummy.m"; sourceTree = "<group>"; };
+		934BD9E0D683B32A33111976D50AF1DD /* Pods-DataNSW-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataNSW-Info.plist"; sourceTree = "<group>"; };
+		9CA504A51AA1C2773E92D2A78994C98F /* Dwifft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dwifft.swift; path = Dwifft/Dwifft.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A72AAB9225DEB9C98040E97A6D0596C1 /* Pods-NSW Covid19-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSW Covid19-frameworks.sh"; sourceTree = "<group>"; };
+		B273A9855CD1132026FFD4F75A2BFE79 /* Pods-NSW Covid19-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSW Covid19-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B35AECF7DD02D4B7ADA59B7691D88291 /* Pods-NSW Covid19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19.release.xcconfig"; sourceTree = "<group>"; };
+		B5C507EFFD5E84791223BB0AE5BD0036 /* Pods-NSW Covid19Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19Tests-Info.plist"; sourceTree = "<group>"; };
+		B986723E70F843C05F96A01815A80A5C /* Pods-NSW Covid19UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19UITests-Info.plist"; sourceTree = "<group>"; };
+		BB6BD2367EAB63454F35F758AD5B6E64 /* SectionedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedValues.swift; path = Dwifft/SectionedValues.swift; sourceTree = "<group>"; };
+		BEFE7B26E63BF44EFB7A0924B395E717 /* Pods-NSW Covid19-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSW Covid19-umbrella.h"; sourceTree = "<group>"; };
+		C0D03ABA2E65DC2180212211CAAE5D3B /* Pods-NSW Covid19UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSW Covid19UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CABEB0402E97B1F83A2A97BAB87F53B7 /* Dwifft-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-prefix.pch"; sourceTree = "<group>"; };
+		D16701C04FAC4DCFA2BBC2E6CF6A7260 /* Pods-DataNSW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataNSW.release.xcconfig"; sourceTree = "<group>"; };
+		D65F0BCADDAB3616D77A1E146D4E24C8 /* Dwifft+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+UIKit.swift"; path = "Dwifft/Dwifft+UIKit.swift"; sourceTree = "<group>"; };
+		D9C47E9207692C000906B24415C4203C /* Pods-DataNSW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataNSW.debug.xcconfig"; sourceTree = "<group>"; };
+		DD50AB0C979100AC648C983788523D42 /* Dwifft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dwifft-dummy.m"; sourceTree = "<group>"; };
+		E369E706DCEFB02DE66CD0E9CB98CB16 /* Dwifft-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dwifft-Info.plist"; sourceTree = "<group>"; };
+		E5BB89D221A367E5275239BCBEEA227F /* Pods-NSW Covid19UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSW Covid19UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E870A2C31570F7D38C9BC5847AB6C42C /* Pods-NSW Covid19-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSW Covid19-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9B8917147DAEC30F90EDE08F6109ED4 /* Pods-NSW Covid19Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSW Covid19Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE9147D60DB5518852FA607EE6F03B45 /* Pods-DataNSW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataNSW-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3D4B0B12F70A427327580CC08E082DB /* Pods-DataNSW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataNSW.modulemap"; sourceTree = "<group>"; };
+		FF024DCEACF139617EC596C45282C2F1 /* Dwifft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dwifft.framework; path = Dwifft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164C8AFA0C0B157C5E79D2C5986FB149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E735FF06E6D5F111C4F6F82FEF8A2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC09989AA6AB8020267F136A98BD680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88075022B51C43AAA7169ACF1C559BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6078E264F02A5FA5BBF8C6FB6C271B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FBFD88BB6F8B33F9F27FF1044E6D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE4CDB96A3252D5DEB1CBAC75AD2909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF45CC57DBBA3941720AA1EF1F57A853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF38456BEA24070873C7A757E8E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E49A01811CF8FA1FE92981ABB9067F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2286145BD656E7738DE0C3CC6BE8A945 /* Pods-NSW Covid19 */ = {
+			isa = PBXGroup;
+			children = (
+				244CF42985B3452F509CEA3BD60F8C11 /* Pods-NSW Covid19.modulemap */,
+				B273A9855CD1132026FFD4F75A2BFE79 /* Pods-NSW Covid19-acknowledgements.markdown */,
+				E870A2C31570F7D38C9BC5847AB6C42C /* Pods-NSW Covid19-acknowledgements.plist */,
+				672318389292E1C92D0DD4B6EAD6C6CE /* Pods-NSW Covid19-dummy.m */,
+				A72AAB9225DEB9C98040E97A6D0596C1 /* Pods-NSW Covid19-frameworks.sh */,
+				3E3738E8887AF25BE68D45BF56BC5F8D /* Pods-NSW Covid19-Info.plist */,
+				BEFE7B26E63BF44EFB7A0924B395E717 /* Pods-NSW Covid19-umbrella.h */,
+				7521995B09A1B704CD5CB3AAC2EB7002 /* Pods-NSW Covid19.debug.xcconfig */,
+				B35AECF7DD02D4B7ADA59B7691D88291 /* Pods-NSW Covid19.release.xcconfig */,
+			);
+			name = "Pods-NSW Covid19";
+			path = "Target Support Files/Pods-NSW Covid19";
+			sourceTree = "<group>";
+		};
+		2AF106CD8DC4EE7BC0603F27F95D312A /* Pods-DataNSW */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4B0B12F70A427327580CC08E082DB /* Pods-DataNSW.modulemap */,
+				EE9147D60DB5518852FA607EE6F03B45 /* Pods-DataNSW-acknowledgements.markdown */,
+				380F721BDB143DC1AC2CF0AC6A65FB27 /* Pods-DataNSW-acknowledgements.plist */,
+				2D16D348BCCDA5307C5A5BBB09D7CCE5 /* Pods-DataNSW-dummy.m */,
+				934BD9E0D683B32A33111976D50AF1DD /* Pods-DataNSW-Info.plist */,
+				1C2F586461F5055582390FBF7A671895 /* Pods-DataNSW-umbrella.h */,
+				D9C47E9207692C000906B24415C4203C /* Pods-DataNSW.debug.xcconfig */,
+				D16701C04FAC4DCFA2BBC2E6CF6A7260 /* Pods-DataNSW.release.xcconfig */,
+			);
+			name = "Pods-DataNSW";
+			path = "Target Support Files/Pods-DataNSW";
+			sourceTree = "<group>";
+		};
+		4BE129200FC0786433869D55A5D4A195 /* Pods-NSW Covid19Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15E92C56D8AB2FF08DEA4B70FB585FBD /* Pods-NSW Covid19Tests.modulemap */,
+				89767B21733B1A13F382F975BFFAF2D8 /* Pods-NSW Covid19Tests-acknowledgements.markdown */,
+				3E24F92A442537D23495971B0135EAE9 /* Pods-NSW Covid19Tests-acknowledgements.plist */,
+				2A24FB9884915A833BD3E8C68E1CC812 /* Pods-NSW Covid19Tests-dummy.m */,
+				B5C507EFFD5E84791223BB0AE5BD0036 /* Pods-NSW Covid19Tests-Info.plist */,
+				E9B8917147DAEC30F90EDE08F6109ED4 /* Pods-NSW Covid19Tests-umbrella.h */,
+				48BCFE696B2DA5A93F7D6D6184A421A0 /* Pods-NSW Covid19Tests.debug.xcconfig */,
+				724574951B5EED853679B4145A6255AF /* Pods-NSW Covid19Tests.release.xcconfig */,
+			);
+			name = "Pods-NSW Covid19Tests";
+			path = "Target Support Files/Pods-NSW Covid19Tests";
+			sourceTree = "<group>";
+		};
+		54E511F07E91AB0EF8AD542C45189B92 /* Dwifft */ = {
+			isa = PBXGroup;
+			children = (
+				0399113723B81D123442D77CF5895AFB /* AbstractDiffCalculator.swift */,
+				9CA504A51AA1C2773E92D2A78994C98F /* Dwifft.swift */,
+				3B9C2D63837D55D28BF8892D5F9E447E /* Dwifft+AppKit.swift */,
+				D65F0BCADDAB3616D77A1E146D4E24C8 /* Dwifft+UIKit.swift */,
+				BB6BD2367EAB63454F35F758AD5B6E64 /* SectionedValues.swift */,
+				C3A3F9EAAA557193B2F911EA703408DE /* Support Files */,
+			);
+			name = Dwifft;
+			path = Dwifft;
+			sourceTree = "<group>";
+		};
+		90A7BA890F6BFB89F077765346ACCC1B /* Pods-NSW Covid19UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D54AD5A31807C6C3CFB082BBBA05847 /* Pods-NSW Covid19UITests.modulemap */,
+				C0D03ABA2E65DC2180212211CAAE5D3B /* Pods-NSW Covid19UITests-acknowledgements.markdown */,
+				4E87748B72C348B6E6A84A680E22C358 /* Pods-NSW Covid19UITests-acknowledgements.plist */,
+				8D56A6D6096D3F9E8B863494AB85BB28 /* Pods-NSW Covid19UITests-dummy.m */,
+				B986723E70F843C05F96A01815A80A5C /* Pods-NSW Covid19UITests-Info.plist */,
+				7B56250EC89890941323C027EC5A7ABA /* Pods-NSW Covid19UITests-umbrella.h */,
+				E5BB89D221A367E5275239BCBEEA227F /* Pods-NSW Covid19UITests.debug.xcconfig */,
+				261237C003567AA0434A50AD8D351FCD /* Pods-NSW Covid19UITests.release.xcconfig */,
+			);
+			name = "Pods-NSW Covid19UITests";
+			path = "Target Support Files/Pods-NSW Covid19UITests";
+			sourceTree = "<group>";
+		};
+		956E55042F9BD53BDE9946FB19F30AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54E511F07E91AB0EF8AD542C45189B92 /* Dwifft */,
+				FCB021C5884E805BDD872F490D3D6959 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9AEB2C9D87CF6DA8F8B60C49E45EEFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF106CD8DC4EE7BC0603F27F95D312A /* Pods-DataNSW */,
+				2286145BD656E7738DE0C3CC6BE8A945 /* Pods-NSW Covid19 */,
+				4BE129200FC0786433869D55A5D4A195 /* Pods-NSW Covid19Tests */,
+				90A7BA890F6BFB89F077765346ACCC1B /* Pods-NSW Covid19UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACE3FC6D83860ABA7A61928C274C0D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF024DCEACF139617EC596C45282C2F1 /* Dwifft.framework */,
+				1FFCA3D44BF3986155E5B6A08E3F3F99 /* Pods_DataNSW.framework */,
+				719E415CF36D47BAC2B49D5FCBE95C25 /* Pods_NSW_Covid19.framework */,
+				44650D54E3BE944D6E249CAF18AA95A3 /* Pods_NSW_Covid19Tests.framework */,
+				01111D2D1284B6C20AA9639B650AEEA0 /* Pods_NSW_Covid19UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B81FF2619EB522DF2B6366950BBA7642 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4034A57CA98F161DE3E82FC0E9935 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3A3F9EAAA557193B2F911EA703408DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F8B7F771D0A145B2B926B4BF36FA58 /* Dwifft.modulemap */,
+				31AB76BC2DFB05718C5844D65112EBA9 /* Dwifft.xcconfig */,
+				DD50AB0C979100AC648C983788523D42 /* Dwifft-dummy.m */,
+				E369E706DCEFB02DE66CD0E9CB98CB16 /* Dwifft-Info.plist */,
+				CABEB0402E97B1F83A2A97BAB87F53B7 /* Dwifft-prefix.pch */,
+				52E0A39A5594761EF21F287FD2B1AD68 /* Dwifft-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dwifft";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				956E55042F9BD53BDE9946FB19F30AE4 /* Pods */,
+				ACE3FC6D83860ABA7A61928C274C0D61 /* Products */,
+				A9AEB2C9D87CF6DA8F8B60C49E45EEFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB021C5884E805BDD872F490D3D6959 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				B81FF2619EB522DF2B6366950BBA7642 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B4F360A28083186B53D9651974BCC8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1122263BC71B92EE1D1AA83C678E2BB4 /* Pods-NSW Covid19UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A2E80AF8F27BF2DF27D4A89255524A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF933AA662AA3502928EEE9BD21EF94D /* Pods-NSW Covid19Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B84C14C5304A1B1046F764D386EF996 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E590D4C6AB3AD9C2826A8F68D9F501B5 /* Pods-NSW Covid19-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB1715A51C2170F4629DA5D20C2B4D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82053C07A1DC8B2A74A382F10232A6B /* Pods-DataNSW-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F1943802E8736187005871BB4F6723 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D98B888ACA1822CD885AE930EB9F1DA /* Dwifft-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B4984AEFDE1BEF276EE148A219602EA /* Pods-NSW Covid19Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CFC1632EAD9CE7E9F40E74983D4F04 /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19Tests" */;
+			buildPhases = (
+				44A2E80AF8F27BF2DF27D4A89255524A /* Headers */,
+				0D308EF38061031EAEC24F58459E7E0C /* Sources */,
+				7CE4CDB96A3252D5DEB1CBAC75AD2909 /* Frameworks */,
+				E8175C6A8DF17AC4CFA3B05AA9A1C185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BBA0C7638C24257AD0D8702C5ECB31 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSW Covid19Tests";
+			productName = "Pods-NSW Covid19Tests";
+			productReference = 44650D54E3BE944D6E249CAF18AA95A3 /* Pods_NSW_Covid19Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4255A53C9FC46E2A6605D689307219F6 /* Dwifft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67375D2293447FAF29DF2E5022FF51F7 /* Build configuration list for PBXNativeTarget "Dwifft" */;
+			buildPhases = (
+				B7F1943802E8736187005871BB4F6723 /* Headers */,
+				40331C885CE19F8625C67402AE78230A /* Sources */,
+				CEFF38456BEA24070873C7A757E8E10D /* Frameworks */,
+				E95C69620542908F55D87BBD7BCF3392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dwifft;
+			productName = Dwifft;
+			productReference = FF024DCEACF139617EC596C45282C2F1 /* Dwifft.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66250EADF1D81FC4BAEC6675D7902C63 /* Pods-NSW Covid19UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B54D89A2822E783247C98E5A33D9AA8 /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19UITests" */;
+			buildPhases = (
+				1B4F360A28083186B53D9651974BCC8B /* Headers */,
+				23A0F5291173A805DE4609D4B724C1E0 /* Sources */,
+				2BC09989AA6AB8020267F136A98BD680 /* Frameworks */,
+				66DF349931A55642898057220FA12957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C0552D28AAED2AC39CC7EDB0EF850E /* PBXTargetDependency */,
+			);
+			name = "Pods-NSW Covid19UITests";
+			productName = "Pods-NSW Covid19UITests";
+			productReference = 01111D2D1284B6C20AA9639B650AEEA0 /* Pods_NSW_Covid19UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83F03A8CC6626DE090DF1E9ED38C4C22 /* Pods-NSW Covid19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1FE29D68E9712066F26045CD7EBC7E /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19" */;
+			buildPhases = (
+				5B84C14C5304A1B1046F764D386EF996 /* Headers */,
+				39FCB34B348ECDB6AEB7353EEC7F25CA /* Sources */,
+				6078E264F02A5FA5BBF8C6FB6C271B6E /* Frameworks */,
+				44054AD47A170C0EC3619BFBE13C45C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C627204EB2E1948F3A6DF03732B5D2 /* PBXTargetDependency */,
+				F7DE1C7CE3C08372C840D427BAB59070 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSW Covid19";
+			productName = "Pods-NSW Covid19";
+			productReference = 719E415CF36D47BAC2B49D5FCBE95C25 /* Pods_NSW_Covid19.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93BCDAF6E099FB0448EA5FF9EB25ECF3 /* Pods-DataNSW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672278FCDA4F36375DE309FE0101200F /* Build configuration list for PBXNativeTarget "Pods-DataNSW" */;
+			buildPhases = (
+				7EB1715A51C2170F4629DA5D20C2B4D6 /* Headers */,
+				6A5BEEE8DA0C08B4A1987E2B5438BDD9 /* Sources */,
+				164C8AFA0C0B157C5E79D2C5986FB149 /* Frameworks */,
+				4CCE9ADAE15659FDF9F46BB7A1016F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DataNSW";
+			productName = "Pods-DataNSW";
+			productReference = 1FFCA3D44BF3986155E5B6A08E3F3F99 /* Pods_DataNSW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ACE3FC6D83860ABA7A61928C274C0D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4255A53C9FC46E2A6605D689307219F6 /* Dwifft */,
+				93BCDAF6E099FB0448EA5FF9EB25ECF3 /* Pods-DataNSW */,
+				83F03A8CC6626DE090DF1E9ED38C4C22 /* Pods-NSW Covid19 */,
+				1B4984AEFDE1BEF276EE148A219602EA /* Pods-NSW Covid19Tests */,
+				66250EADF1D81FC4BAEC6675D7902C63 /* Pods-NSW Covid19UITests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44054AD47A170C0EC3619BFBE13C45C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE9ADAE15659FDF9F46BB7A1016F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF349931A55642898057220FA12957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8175C6A8DF17AC4CFA3B05AA9A1C185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95C69620542908F55D87BBD7BCF3392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D308EF38061031EAEC24F58459E7E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D47408D75BF63F1B67AE855F168ECF /* Pods-NSW Covid19Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A0F5291173A805DE4609D4B724C1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1FCEE2D10ED66B7CEE38FAABAC0B83 /* Pods-NSW Covid19UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FCB34B348ECDB6AEB7353EEC7F25CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20594F861AC525C6367171EC1A85A410 /* Pods-NSW Covid19-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40331C885CE19F8625C67402AE78230A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B28AF4E12913AC5EEBAF7499182DF0B /* AbstractDiffCalculator.swift in Sources */,
+				4452A4C261337D00D753E7E3A12B8506 /* Dwifft+AppKit.swift in Sources */,
+				8F958A757695F959363483AF5B109D64 /* Dwifft+UIKit.swift in Sources */,
+				DF3B83C81214CC3290255C922E55DDF1 /* Dwifft-dummy.m in Sources */,
+				894969C74BE3934962FF7FCBBC0BF161 /* Dwifft.swift in Sources */,
+				1ADD9D0AD5F0657B7809864B756BC155 /* SectionedValues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BEEE8DA0C08B4A1987E2B5438BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9FAEA1FF3B7FEF9E5BFE3057842374 /* Pods-DataNSW-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C627204EB2E1948F3A6DF03732B5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dwifft;
+			target = 4255A53C9FC46E2A6605D689307219F6 /* Dwifft */;
+			targetProxy = 24A188E2DB407E499214D3D35FCDAB4D /* PBXContainerItemProxy */;
+		};
+		C4BBA0C7638C24257AD0D8702C5ECB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSW Covid19";
+			target = 83F03A8CC6626DE090DF1E9ED38C4C22 /* Pods-NSW Covid19 */;
+			targetProxy = 9797F4AFFBE69B9DCB94BA89E7B3ABC4 /* PBXContainerItemProxy */;
+		};
+		D9C0552D28AAED2AC39CC7EDB0EF850E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSW Covid19";
+			target = 83F03A8CC6626DE090DF1E9ED38C4C22 /* Pods-NSW Covid19 */;
+			targetProxy = 07EC29298ABAB502DC0EBA634653EC14 /* PBXContainerItemProxy */;
+		};
+		F7DE1C7CE3C08372C840D427BAB59070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 40D16626CAFC55559AA959CEAEB9E569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D7EC4AC6F2C5C70C7916B11A3A7A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35AECF7DD02D4B7ADA59B7691D88291 /* Pods-NSW Covid19.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19/Pods-NSW Covid19-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19/Pods-NSW Covid19.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F7E45997228C0780A8485B8F86D19ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BCFE696B2DA5A93F7D6D6184A421A0 /* Pods-NSW Covid19Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19Tests/Pods-NSW Covid19Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19Tests/Pods-NSW Covid19Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		52AEDC39AECE4D6B9F61CB4CCE40331C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724574951B5EED853679B4145A6255AF /* Pods-NSW Covid19Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19Tests/Pods-NSW Covid19Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19Tests/Pods-NSW Covid19Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		765385684273DACB2F5BCFA13AF7112D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16701C04FAC4DCFA2BBC2E6CF6A7260 /* Pods-DataNSW.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataNSW/Pods-DataNSW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataNSW/Pods-DataNSW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD4034A57CA98F161DE3E82FC0E9935 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B24A4DC9E187E5C074453BC94DDBA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AB76BC2DFB05718C5844D65112EBA9 /* Dwifft.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
+				PRODUCT_MODULE_NAME = Dwifft;
+				PRODUCT_NAME = Dwifft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		952A88606BDCDD862F8890467D282714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261237C003567AA0434A50AD8D351FCD /* Pods-NSW Covid19UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19UITests/Pods-NSW Covid19UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19UITests/Pods-NSW Covid19UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BE153C9AF345DC138FDA97EFD410B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BB89D221A367E5275239BCBEEA227F /* Pods-NSW Covid19UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19UITests/Pods-NSW Covid19UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19UITests/Pods-NSW Covid19UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC6B42084B9C4E7B88D7770CE076EACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C47E9207692C000906B24415C4203C /* Pods-DataNSW.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataNSW/Pods-DataNSW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataNSW/Pods-DataNSW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA030FB1E4F36E179543E3FDC0186B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AB76BC2DFB05718C5844D65112EBA9 /* Dwifft.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
+				PRODUCT_MODULE_NAME = Dwifft;
+				PRODUCT_NAME = Dwifft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFB279C166F53E283B6CD7E57E5D8F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7521995B09A1B704CD5CB3AAC2EB7002 /* Pods-NSW Covid19.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSW Covid19/Pods-NSW Covid19-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSW Covid19/Pods-NSW Covid19.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD4034A57CA98F161DE3E82FC0E9935 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B54D89A2822E783247C98E5A33D9AA8 /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE153C9AF345DC138FDA97EFD410B40 /* Debug */,
+				952A88606BDCDD862F8890467D282714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672278FCDA4F36375DE309FE0101200F /* Build configuration list for PBXNativeTarget "Pods-DataNSW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6B42084B9C4E7B88D7770CE076EACD /* Debug */,
+				765385684273DACB2F5BCFA13AF7112D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67375D2293447FAF29DF2E5022FF51F7 /* Build configuration list for PBXNativeTarget "Dwifft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B24A4DC9E187E5C074453BC94DDBA01 /* Debug */,
+				BA030FB1E4F36E179543E3FDC0186B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CFC1632EAD9CE7E9F40E74983D4F04 /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7E45997228C0780A8485B8F86D19ED /* Debug */,
+				52AEDC39AECE4D6B9F61CB4CCE40331C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1FE29D68E9712066F26045CD7EBC7E /* Build configuration list for PBXNativeTarget "Pods-NSW Covid19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB279C166F53E283B6CD7E57E5D8F52 /* Debug */,
+				11D7EC4AC6F2C5C70C7916B11A3A7A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

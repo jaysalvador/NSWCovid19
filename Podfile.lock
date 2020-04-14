@@ -1,0 +1,29 @@
+PODS:
+  - Dwifft (0.9)
+  - SwiftLint (0.39.2)
+
+DEPENDENCIES:
+  - Dwifft (from `https://github.com/jflinter/Dwifft.git`, commit `c5a9c62`)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Dwifft:
+    :commit: c5a9c62
+    :git: https://github.com/jflinter/Dwifft.git
+
+CHECKOUT OPTIONS:
+  Dwifft:
+    :commit: c5a9c62
+    :git: https://github.com/jflinter/Dwifft.git
+
+SPEC CHECKSUMS:
+  Dwifft: 00dcec0f3c38cfb9c1331509851e81c84fc3949e
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+
+PODFILE CHECKSUM: 69af89af8984bf7d8629223a15461c8f581b3634
+
+COCOAPODS: 1.7.4
