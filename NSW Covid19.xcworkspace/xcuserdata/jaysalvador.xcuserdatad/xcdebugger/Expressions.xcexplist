@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ViewController.viewDidLoad():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.mapView(_:regionDidChangeAnimated:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewModel?.geocodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ViewModel.getGeocodes(postcodes:):ViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self?.geocodes?.keys.sorted(by: {$0 &lt; $1})">
+            </PersistentString>
+            <PersistentString
+               value = "self?.geocodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ViewController.viewDidLoad():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ViewModel.getGeocodes(postcodes:):ViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self?.geocodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in ViewController.viewDidLoad():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewModel.getGeocodes(postcodes:):ViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "postcodes.sorted(by: { $0 &lt; $1 })">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewModel.getLocations(id:offset:):ViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "postcodes.sorted { $0 &lt; $1 }">
+            </PersistentString>
+            <PersistentString
+               value = "self?.counts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewModel.getGeocode(postcodes:completion:):ViewModel.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

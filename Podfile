@@ -16,6 +16,7 @@ target 'NSW Covid19' do
   # Pods for NSW Covid19
   pod 'SwiftLint'
   pod 'Dwifft', :git => 'https://github.com/jflinter/Dwifft.git', :commit => 'c5a9c62'
+  pod 'LFHeatMap'
 
   target 'NSW Covid19Tests' do
     inherit! :search_paths

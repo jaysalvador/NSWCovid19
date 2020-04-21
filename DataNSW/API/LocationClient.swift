@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol LocationClientProtocol {
+public protocol LocationClientProtocol {
     
     func getPatients(id: String?, offset: Int?, onCompletion: HttpCompletionClosure<LocationClient.LocationResponse>?)
 }

@@ -90,14 +90,20 @@ public class HttpClient: HttpClientProtocol {
     /// - Parameter onCompletion: completion closure with `Result` containing the binded model or error states
     private func send<T>(_ request: URLRequest?, returnType: T.Type, onCompletion: HttpCompletionClosure<T>?) where T: Decodable {
         
-        guard let request = request else {
+        guard let request = request, let url = request.url else {
             
             onCompletion?(.failure(HttpError.nilRequest))
             
             return
         }
+
+        let start = Date()
         
         let task = urlSession.dataTask(with: request) { (data, urlResponse, error) -> Void in
+                        
+            let interval = Date().timeIntervalSince(start)
+            
+            print("HttpClient request time: \(ceil(interval * 1000.0)) ms (\(url))")
                         
             if let httpUrlResponse = urlResponse as? HTTPURLResponse, httpUrlResponse.statusCode < 400 {
                 

@@ -33,6 +33,8 @@
 		B58B292F244E8FC500279995 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292E244E8FC500279995 /* KeyedDecodingContainer.swift */; };
 		B58B2931244E8FE900279995 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2930244E8FE900279995 /* String.swift */; };
 		B58B2935244E939A00279995 /* UrlParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2934244E939A00279995 /* UrlParameters.swift */; };
+		B58B2939244EC79900279995 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2938244EC79900279995 /* ViewModel.swift */; };
+		B58B293D244EEFE900279995 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B293C244EEFE900279995 /* MKMapView.swift */; };
 		D636B8DE887CAA545094B352 /* Pods_NSW_Covid19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25381B6B711368BF40081E /* Pods_NSW_Covid19UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +109,8 @@
 		B58B292E244E8FC500279995 /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainer.swift; sourceTree = "<group>"; };
 		B58B2930244E8FE900279995 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B58B2934244E939A00279995 /* UrlParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlParameters.swift; sourceTree = "<group>"; };
+		B58B2938244EC79900279995 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B58B293C244EEFE900279995 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,9 +188,11 @@
 		B55CA834243358CF00389837 /* NSW Covid19 */ = {
 			isa = PBXGroup;
 			children = (
+				B58B293B244EEFE000279995 /* Extensions */,
 				B55CA835243358CF00389837 /* AppDelegate.swift */,
 				B55CA837243358CF00389837 /* SceneDelegate.swift */,
 				B55CA839243358CF00389837 /* ViewController.swift */,
+				B58B2938244EC79900279995 /* ViewModel.swift */,
 				B55CA83B243358CF00389837 /* Main.storyboard */,
 				B55CA83E243358D200389837 /* Assets.xcassets */,
 				B55CA840243358D200389837 /* LaunchScreen.storyboard */,
@@ -256,6 +262,14 @@
 				B55CA88124336BC000389837 /* Source.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B58B293B244EEFE000279995 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B58B293C244EEFE900279995 /* MKMapView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FA9FB14F3263C19BFF39AC9F /* Pods */ = {
@@ -578,7 +592,9 @@
 			files = (
 				B55CA83A243358CF00389837 /* ViewController.swift in Sources */,
 				B55CA836243358CF00389837 /* AppDelegate.swift in Sources */,
+				B58B2939244EC79900279995 /* ViewModel.swift in Sources */,
 				B55CA838243358CF00389837 /* SceneDelegate.swift in Sources */,
+				B58B293D244EEFE900279995 /* MKMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

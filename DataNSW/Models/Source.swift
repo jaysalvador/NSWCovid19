@@ -10,11 +10,11 @@ import Foundation
 
 public enum SourceType: String, Codable {
     
-    case overseas = "Overseas"
-    case investigation = "Under Investigation"
-    case unidentified = "Locally acquired - contact not identified"
-    case local = "Locally acquired - contact of a confirmed case and/or in a known cluster"
-    case interstate = "Interstate"
+    case overseas = "overseas"
+    case investigation = "under investigation"
+    case unidentified = "locally acquired - contact not identified"
+    case local = "locally acquired - contact of a confirmed case and/or in a known cluster"
+    case interstate = "interstate"
 }
 
 public struct Source: Codable {

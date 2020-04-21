@@ -23,4 +23,14 @@ extension KeyedDecodingContainer {
         
         return string.toDate()
     }
+    
+    func sourceTypeIfPresent(forKey key: KeyedDecodingContainer.Key) -> SourceType? {
+        
+        guard let string = try? self.decodeIfPresent(String.self, forKey: key) else {
+            
+            return nil
+        }
+        
+        return SourceType(rawValue: string.lowercased())
+    }
 }

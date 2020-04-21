@@ -8,56 +8,78 @@
 
 import UIKit
 import DataNSW
+import MapKit
+import LFHeatMap
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet
+    private var imageView: UIImageView?
+    
+    @IBOutlet
+    private var mapView: MKMapView?
+    
+    // MARK: - View model
+    
+    private var viewModel: ViewModelProtocol? = ViewModel()
+    
+    // MARK: - Setup
+    
+    /// setup the ViewModel callbacks and their behaviours
+    private func setupViewModel() {
         
-        let group = DispatchGroup()
+        self.viewModel?.onUpdated = { [weak self] in
 
-        let client = PackageClient()
-        
-        var package: Package?
-
-        group.enter()
-        
-        client?.getPackages { (response) in
-
-            switch response {
-            case .success(let result):
-
-                print(result.packages?.count ?? 0)
-                
-                package = result.packages?.first { $0.name == Package.casesByLocationAndSource }
-
-            case .failure(let error):
-
-                print(error)
-            }
-
-            group.leave()
+            print(self?.viewModel?.locations?.count ?? 0)
         }
         
-        group.notify(queue: .main) {
-
-            let patients = LocationClient()
+        self.viewModel?.onGeolocationUpdated = { [weak self] in
             
-            patients?.getPatients(id: package?.id, offset: nil) { (response) in
+            if let geocode = self?.viewModel?.geocodes?[2000] {
                 
-                switch response {
-                case .success(let result):
-                    
-                    print(result.locations?.count ?? 0)
-                    
-                case .failure(let error):
-                    
-                    print(error)
-                }
-                
+                self?.mapView?.centerMap(on: geocode.coordinate)
             }
         }
     }
+    
+    // MARK: - View life cycle
 
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+
+        self.setupViewModel()
+        
+        self.viewModel?.loadLocations()
+    }
+
+}
+
+extension ViewController: MKMapViewDelegate {
+    
+    func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+        
+        if let geocodes = self.viewModel?.geocodes,
+            let counts = self.viewModel?.counts {
+            
+            var locations = [CLLocation]()
+            
+            var weights = [Int]()
+                        
+            for postcode in geocodes.keys {
+                
+                if let weight = counts[postcode], let location = geocodes[postcode] {
+                    
+                    locations.append(location)
+
+                    weights.append(weight)
+                }
+            }
+
+            if locations.count > 0 {
+            
+                self.imageView?.image = LFHeatMap.heatMap(for: mapView, boost: Float(1), locations: locations, weights: weights)
+            }
+        }
+    }
 }

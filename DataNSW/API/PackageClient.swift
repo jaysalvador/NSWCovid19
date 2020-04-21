@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol PackageClientProtocol {
+public protocol PackageClientProtocol {
     
     func getPackages(onCompletion: HttpCompletionClosure<PackageClient.PackageResponse>?)
 }

@@ -40,7 +40,7 @@ public struct Location: Codable {
         self.id = try container.decodeIfPresent(Int.self, forKey: .id)
         self.notificationDate = try container.decodeIfPresent(Date.self, forKey: .notificationDate)
         self.postcode = try container.decodeIfPresent(Int.self, forKey: .postcode)
-        self.source = try container.decodeIfPresent(SourceType.self, forKey: .source)
+        self.source = container.sourceTypeIfPresent(forKey: .source)
         self.lhd2010Code = try container.decodeIfPresent(String.self, forKey: .lhd2010Code)
         self.lhd2010Name = try container.decodeIfPresent(String.self, forKey: .lhd2010Name)
         self.lgaCode19 = try container.decodeIfPresent(Int.self, forKey: .lgaCode19)
