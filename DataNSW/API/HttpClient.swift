@@ -39,7 +39,7 @@ public class HttpClient: HttpClientProtocol {
     public convenience init?() {
         
         self.init(
-            baseUrl: "https://raw.githubusercontent.com",
+            baseUrl: "https://data.nsw.gov.au/data/api/3/action",
             urlSession: URLSession.shared)
     }
     
@@ -106,6 +106,8 @@ public class HttpClient: HttpClientProtocol {
                     do {
                         
                         let decoder = JSONDecoder()
+                        
+                        decoder.dateDecodingStrategy = .formatted(.dateAndTime)
                         
                         let decoded = try decoder.decode(returnType, from: data)
                         

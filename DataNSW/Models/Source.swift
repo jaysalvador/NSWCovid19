@@ -14,6 +14,7 @@ public enum SourceType: String, Codable {
     case investigation = "Under Investigation"
     case unidentified = "Locally acquired - contact not identified"
     case local = "Locally acquired - contact of a confirmed case and/or in a known cluster"
+    case interstate = "Interstate"
 }
 
 public struct Source: Codable {

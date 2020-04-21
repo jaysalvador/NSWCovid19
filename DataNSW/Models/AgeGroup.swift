@@ -17,7 +17,7 @@ public enum AgeType: String, Codable {
     case group2024 = "AgeGroup_20-24"
     case group2529 = "AgeGroup_25-29"
     case group3034 = "AgeGroup_30-34"
-    case group3539 = "AgeGroup_30-34"
+    case group3539 = "AgeGroup_35-39"
     case group4044 = "AgeGroup_40-44"
     case group4549 = "AgeGroup_45-49"
     case group5054 = "AgeGroup_50-54"
