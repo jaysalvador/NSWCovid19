@@ -35,6 +35,8 @@
 		B58B2935244E939A00279995 /* UrlParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2934244E939A00279995 /* UrlParameters.swift */; };
 		B58B2939244EC79900279995 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2938244EC79900279995 /* ViewModel.swift */; };
 		B58B293D244EEFE900279995 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B293C244EEFE900279995 /* MKMapView.swift */; };
+		B591B7CE2452624F0042F5E8 /* CovidDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B591B7CC2452624F0042F5E8 /* CovidDataModel.xcdatamodeld */; };
+		B591B7D1245263810042F5E8 /* CodingUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591B7D0245263810042F5E8 /* CodingUserInfoKey.swift */; };
 		D636B8DE887CAA545094B352 /* Pods_NSW_Covid19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25381B6B711368BF40081E /* Pods_NSW_Covid19UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +113,8 @@
 		B58B2934244E939A00279995 /* UrlParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlParameters.swift; sourceTree = "<group>"; };
 		B58B2938244EC79900279995 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B58B293C244EEFE900279995 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		B591B7CD2452624F0042F5E8 /* CovidDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CovidDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B591B7D0245263810042F5E8 /* CodingUserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingUserInfoKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,7 @@
 				B55CA8722433617100389837 /* API */,
 				B55CA8732433618200389837 /* Extensions */,
 				B55CA8742433618A00389837 /* Models */,
+				B591B7CF245262820042F5E8 /* CoreData */,
 			);
 			path = DataNSW;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 		B55CA8732433618200389837 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B591B7D0245263810042F5E8 /* CodingUserInfoKey.swift */,
 				B58B292C244E8DCB00279995 /* DateFormatter.swift */,
 				B55CA8792433623500389837 /* DispatchQueue.swift */,
 				B58B292E244E8FC500279995 /* KeyedDecodingContainer.swift */,
@@ -270,6 +276,14 @@
 				B58B293C244EEFE900279995 /* MKMapView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B591B7CF245262820042F5E8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B591B7CC2452624F0042F5E8 /* CovidDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		FA9FB14F3263C19BFF39AC9F /* Pods */ = {
@@ -593,6 +607,7 @@
 				B55CA83A243358CF00389837 /* ViewController.swift in Sources */,
 				B55CA836243358CF00389837 /* AppDelegate.swift in Sources */,
 				B58B2939244EC79900279995 /* ViewModel.swift in Sources */,
+				B591B7CE2452624F0042F5E8 /* CovidDataModel.xcdatamodeld in Sources */,
 				B55CA838243358CF00389837 /* SceneDelegate.swift in Sources */,
 				B58B293D244EEFE900279995 /* MKMapView.swift in Sources */,
 			);
@@ -621,6 +636,7 @@
 				B55CA876243361A700389837 /* HttpClient.swift in Sources */,
 				B58B2931244E8FE900279995 /* String.swift in Sources */,
 				B58B292F244E8FC500279995 /* KeyedDecodingContainer.swift in Sources */,
+				B591B7D1245263810042F5E8 /* CodingUserInfoKey.swift in Sources */,
 				B55CA878243361B600389837 /* HttpError.swift in Sources */,
 				B55CA87E243363EB00389837 /* Location.swift in Sources */,
 				B58B2935244E939A00279995 /* UrlParameters.swift in Sources */,
@@ -979,6 +995,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B591B7CC2452624F0042F5E8 /* CovidDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B591B7CD2452624F0042F5E8 /* CovidDataModel.xcdatamodel */,
+			);
+			currentVersion = B591B7CD2452624F0042F5E8 /* CovidDataModel.xcdatamodel */;
+			path = CovidDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B55CA82A243358CF00389837 /* Project object */;
 }

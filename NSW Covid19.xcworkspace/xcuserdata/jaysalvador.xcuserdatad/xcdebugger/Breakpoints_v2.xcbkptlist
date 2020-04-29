@@ -87,22 +87,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "273B0377-8C32-4176-BE54-C3C917C9A282"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DataNSW/Extensions/String.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "toDate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9C3F8243-9057-491F-8F78-C50A54847685"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -135,7 +119,39 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3A4B9C6D-2839-4B62-94CC-3B71ADAA25F0"
+            uuid = "60B3540D-F940-40A3-9BF9-E5ECEA98E8EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSW Covid19/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "getGeocodes(postcodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FA95226-A42C-4F45-81D7-83BB54DA5620"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSW Covid19/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "getLocations(id:offset:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A423177A-8645-4EF5-AE48-1C8BE1DCA182"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -151,17 +167,113 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C80C0465-4321-4E91-8760-62326087F3C9"
+            uuid = "95618F42-47BA-466B-BB8F-0E7A19C33A4C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSW Covid19/ViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "getGeocode(postcodes:inProgress:completion:)"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "getLocations(id:offset:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7F081BA-52FB-4C96-B042-A6CD87A2A44D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSW Covid19/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "getLocations(id:offset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7F081BA-52FB-4C96-B042-A6CD87A2A44D - 3771cb4c1ac8bbe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NSW_Covid19.ViewModel.getLocations(id: Swift.String, offset: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "NSW Covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysalvador/NSWCovid19/NSW%20Covid19/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "B7F081BA-52FB-4C96-B042-A6CD87A2A44D - 2009e5167f2dd492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;DataNSW.LocationClient.LocationResponse, DataNSW.HttpError&gt;) -&gt; () in NSW_Covid19.ViewModel.getLocations(id: Swift.String, offset: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "NSW Covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysalvador/NSWCovid19/NSW%20Covid19/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FAC1F90-AE6A-4C7C-899C-EB088CD85472"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSW Covid19/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getLocations(id:offset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1FAC1F90-AE6A-4C7C-899C-EB088CD85472 - 2009e5167f2dd492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;DataNSW.LocationClient.LocationResponse, DataNSW.HttpError&gt;) -&gt; () in NSW_Covid19.ViewModel.getLocations(id: Swift.String, offset: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "NSW Covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysalvador/NSWCovid19/NSW%20Covid19/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "1FAC1F90-AE6A-4C7C-899C-EB088CD85472 - 2009e5167f2dd492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;DataNSW.LocationClient.LocationResponse, DataNSW.HttpError&gt;) -&gt; () in NSW_Covid19.ViewModel.getLocations(id: Swift.String, offset: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "NSW Covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysalvador/NSWCovid19/NSW%20Covid19/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

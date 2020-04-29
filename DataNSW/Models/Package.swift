@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import CoreData
 
-public struct Package: Codable {
+public class Package: NSManagedObject, Codable {
     
     public static let casesByLocationAndSource: String = "nsw-covid-19-cases-by-location-and-likely-source-of-infection"
     
@@ -24,7 +25,16 @@ public struct Package: Codable {
     
     /// Decoded override to bind all currencies into an array
     /// - Parameter decoder: `Decoder ` object
-    public init(from decoder: Decoder) throws {
+    required public convenience init(from decoder: Decoder) throws {
+        
+        guard let codingUserInfoKeyManagedObjectContext = CodingUserInfoKey.managedObjectContext,
+            let managedObjectContext = decoder.userInfo[codingUserInfoKeyManagedObjectContext] as? NSManagedObjectContext,
+            let entity = NSEntityDescription.entity(forEntityName: "Package", in: managedObjectContext) else {
+                
+            fatalError("Failed to decode User")
+        }
+
+        self.init(entity: entity, insertInto: managedObjectContext)
 
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
