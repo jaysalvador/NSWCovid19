@@ -25,6 +25,10 @@ extension String {
             
             return fullIsoDate
         }
+        else if let date = DateFormatter.dashedYearMonthDay.date(from: self) {
+            
+            return date
+        }
         else if let altIsoDate = DateFormatter.lastUpdated.date(from: self) {
             
             return altIsoDate

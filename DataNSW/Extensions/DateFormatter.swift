@@ -29,6 +29,16 @@ extension DateFormatter {
         return dateFormatter
     }()
     
+    /// returns a formatter for `yyyyMMdd`
+    public static let dashedYearMonthDay: DateFormatter = {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = .current
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        return dateFormatter
+    }()
+    
     /// returns a formatter for ISO8601 `yyyyMMdd'T'HHmmss,SSSZZZZZ`
     public static let iso8601WithComma: DateFormatter = {
         

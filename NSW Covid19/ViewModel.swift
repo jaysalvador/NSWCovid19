@@ -89,8 +89,9 @@ class ViewModel: ViewModelProtocol {
 
             switch response {
             case .success(let result):
+                let package = result.packages?.filter { $0.name == Package.casesByLocationAndSource }
                 
-                if let id = result.packages?.first(where: { $0.name == Package.casesByLocationAndSource })?.id {
+                if let id = package?.first?.id {
                 
                     self?.getLocations(id: id, offset: nil)
                 }

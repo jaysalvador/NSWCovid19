@@ -38,7 +38,7 @@ public struct Location: Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         self.id = try container.decodeIfPresent(Int.self, forKey: .id)
-        self.notificationDate = try container.decodeIfPresent(Date.self, forKey: .notificationDate)
+        self.notificationDate = container.dateIfPresent(forKey: .notificationDate)
         self.postcode = try container.decodeIfPresent(Int.self, forKey: .postcode)
         self.source = container.sourceTypeIfPresent(forKey: .source)
         self.lhd2010Code = try container.decodeIfPresent(String.self, forKey: .lhd2010Code)
