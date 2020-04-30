@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import DataNSW
 import MapKit
 
 typealias ViewModelCallback = (() -> Void)
@@ -67,7 +66,10 @@ class ViewModel: ViewModelProtocol {
     
     convenience init() {
         
-        self.init(locationClient: LocationClient(), packageClient: PackageClient())
+        self.init(
+            locationClient: LocationClient(persistentContainer: AppDelegate.shared?.persistentContainer),
+            packageClient: PackageClient(persistentContainer: AppDelegate.shared?.persistentContainer)
+        )
     }
     
     init(locationClient _locationClient: LocationClientProtocol?, packageClient _packageClient: PackageClientProtocol?) {
@@ -85,20 +87,28 @@ class ViewModel: ViewModelProtocol {
         
         self.locations = [Location]()
         
-        self.packageClient?.getPackages { [weak self] (response) in
+        if let package = self.packageClient?.fetchFromStorage(),
+            let id = package.first?.id {
 
-            switch response {
-            case .success(let result):
-                let package = result.packages?.filter { $0.name == Package.casesByLocationAndSource }
-                
-                if let id = package?.first?.id {
-                
-                    self?.getLocations(id: id, offset: nil)
+            self.getLocations(id: id, offset: nil)
+        }
+        else {
+                    
+            self.packageClient?.getPackages { [weak self] (response) in
+    
+                switch response {
+                case .success(let result):
+                    let package = result.packages?.filter { $0.name == Package.casesByLocationAndSource }
+    
+                    if let id = package?.first?.id {
+    
+                        self?.getLocations(id: id, offset: nil)
+                    }
+    
+                case .failure:
+    
+                    self?.onError?()
                 }
-                
-            case .failure:
-
-                self?.onError?()
             }
         }
     }

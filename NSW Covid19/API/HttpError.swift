@@ -16,6 +16,7 @@ public enum HttpError: Error {
     case decoding(Error)
     case server(URLResponse?)
     case nilRequest
+    case coredata
     case unknown(statusCode: Int?, data: Data?)
 }
 
@@ -44,6 +45,10 @@ extension HttpError: LocalizedError {
         case .nilRequest:
             
             return "Nil Request"
+        
+        case .coredata:
+            
+            return "CoreData Error"
             
         case .unknown(let statusCode, let data):
 

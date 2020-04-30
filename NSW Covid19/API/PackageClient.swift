@@ -7,10 +7,13 @@
 //
 
 import Foundation
+import CoreData
 
 public protocol PackageClientProtocol {
     
     func getPackages(onCompletion: HttpCompletionClosure<PackageClient.PackageResponse>?)
+    
+    func fetchFromStorage() -> [Package]?
 }
 
 public class PackageClient: HttpClient, PackageClientProtocol {
@@ -26,6 +29,27 @@ public class PackageClient: HttpClient, PackageClientProtocol {
             headers: nil,
             onCompletion: onCompletion
         )
+    }
+
+    public func fetchFromStorage() -> [Package]? {
+        
+        let managedObjectContext = self.persistentContainer?.viewContext
+        
+        let name = String(describing: Package.self)
+        
+        let fetchRequest = NSFetchRequest<Package>(entityName: name)
+        
+        do {
+            
+            let packages = try managedObjectContext?.fetch(fetchRequest)
+            
+            return packages?.filter { $0.name == Package.casesByLocationAndSource }
+            
+        }
+        catch {
+            
+            return nil
+        }
     }
 }
 

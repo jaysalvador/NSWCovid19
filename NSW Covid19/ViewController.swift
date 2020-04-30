@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DataNSW
 import MapKit
 import LFHeatMap
 

@@ -8,9 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7CD8D4D28901EA0CB7E4CA43 /* Pods_NSW_Covid19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565D6D02426B7890467DBA18 /* Pods_NSW_Covid19Tests.framework */; };
-		87860281C1DB61C9491BB881 /* Pods_DataNSW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A82444F1DC043A344A71ADC /* Pods_DataNSW.framework */; };
 		A838A17D1283908B8DC9BDE4 /* Pods_NSW_Covid19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1A5BBEBF99909E72930278 /* Pods_NSW_Covid19.framework */; };
-		B5308DE02449EC7500DF1580 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5308DDF2449EC7500DF1580 /* Package.swift */; };
+		B5584A34245AFB9400CC7DA1 /* AgeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87F2433695C00389837 /* AgeGroup.swift */; };
+		B5584A35245AFB9400CC7DA1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87D243363EB00389837 /* Location.swift */; };
+		B5584A36245AFB9400CC7DA1 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5308DDF2449EC7500DF1580 /* Package.swift */; };
+		B5584A37245AFB9400CC7DA1 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA88124336BC000389837 /* Source.swift */; };
+		B5584A38245AFB9900CC7DA1 /* CodingUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591B7D0245263810042F5E8 /* CodingUserInfoKey.swift */; };
+		B5584A39245AFB9900CC7DA1 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292C244E8DCB00279995 /* DateFormatter.swift */; };
+		B5584A3A245AFB9900CC7DA1 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA8792433623500389837 /* DispatchQueue.swift */; };
+		B5584A3B245AFB9900CC7DA1 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292E244E8FC500279995 /* KeyedDecodingContainer.swift */; };
+		B5584A3C245AFB9900CC7DA1 /* UrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87B2433624900389837 /* UrlSession.swift */; };
+		B5584A3D245AFB9900CC7DA1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2930244E8FE900279995 /* String.swift */; };
+		B5584A3E245AFB9D00CC7DA1 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292A244E8A3000279995 /* LocationClient.swift */; };
+		B5584A3F245AFB9D00CC7DA1 /* PackageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2927244E843A00279995 /* PackageClient.swift */; };
+		B5584A40245AFB9D00CC7DA1 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA875243361A700389837 /* HttpClient.swift */; };
+		B5584A41245AFB9D00CC7DA1 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA877243361B600389837 /* HttpError.swift */; };
+		B5584A42245AFB9D00CC7DA1 /* UrlParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2934244E939A00279995 /* UrlParameters.swift */; };
 		B55CA836243358CF00389837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA835243358CF00389837 /* AppDelegate.swift */; };
 		B55CA838243358CF00389837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA837243358CF00389837 /* SceneDelegate.swift */; };
 		B55CA83A243358CF00389837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA839243358CF00389837 /* ViewController.swift */; };
@@ -19,24 +32,9 @@
 		B55CA842243358D200389837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55CA840243358D200389837 /* LaunchScreen.storyboard */; };
 		B55CA84D243358D200389837 /* NSW_Covid19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA84C243358D200389837 /* NSW_Covid19Tests.swift */; };
 		B55CA858243358D200389837 /* NSW_Covid19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA857243358D200389837 /* NSW_Covid19UITests.swift */; };
-		B55CA876243361A700389837 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA875243361A700389837 /* HttpClient.swift */; };
-		B55CA878243361B600389837 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA877243361B600389837 /* HttpError.swift */; };
-		B55CA87A2433623500389837 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA8792433623500389837 /* DispatchQueue.swift */; };
-		B55CA87C2433624900389837 /* UrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87B2433624900389837 /* UrlSession.swift */; };
-		B55CA87E243363EB00389837 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87D243363EB00389837 /* Location.swift */; };
-		B55CA8802433695C00389837 /* AgeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA87F2433695C00389837 /* AgeGroup.swift */; };
-		B55CA88224336BC000389837 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CA88124336BC000389837 /* Source.swift */; };
-		B58B2928244E843A00279995 /* PackageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2927244E843A00279995 /* PackageClient.swift */; };
-		B58B2929244E87D100279995 /* libDataNSW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B55CA86B243360D500389837 /* libDataNSW.a */; };
-		B58B292B244E8A3000279995 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292A244E8A3000279995 /* LocationClient.swift */; };
-		B58B292D244E8DCB00279995 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292C244E8DCB00279995 /* DateFormatter.swift */; };
-		B58B292F244E8FC500279995 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B292E244E8FC500279995 /* KeyedDecodingContainer.swift */; };
-		B58B2931244E8FE900279995 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2930244E8FE900279995 /* String.swift */; };
-		B58B2935244E939A00279995 /* UrlParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2934244E939A00279995 /* UrlParameters.swift */; };
 		B58B2939244EC79900279995 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B2938244EC79900279995 /* ViewModel.swift */; };
 		B58B293D244EEFE900279995 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B293C244EEFE900279995 /* MKMapView.swift */; };
 		B591B7CE2452624F0042F5E8 /* CovidDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B591B7CC2452624F0042F5E8 /* CovidDataModel.xcdatamodeld */; };
-		B591B7D1245263810042F5E8 /* CodingUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591B7D0245263810042F5E8 /* CodingUserInfoKey.swift */; };
 		D636B8DE887CAA545094B352 /* Pods_NSW_Covid19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25381B6B711368BF40081E /* Pods_NSW_Covid19UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,18 +54,6 @@
 			remoteInfo = "NSW Covid19";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B55CA869243360D500389837 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		073371BC872DE1D305AFB4B6 /* Pods-DataNSW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataNSW.debug.xcconfig"; path = "Target Support Files/Pods-DataNSW/Pods-DataNSW.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +83,6 @@
 		B55CA853243358D200389837 /* NSW Covid19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSW Covid19UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55CA857243358D200389837 /* NSW_Covid19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSW_Covid19UITests.swift; sourceTree = "<group>"; };
 		B55CA859243358D200389837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B55CA86B243360D500389837 /* libDataNSW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataNSW.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55CA875243361A700389837 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		B55CA877243361B600389837 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		B55CA8792433623500389837 /* DispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
@@ -122,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58B2929244E87D100279995 /* libDataNSW.a in Frameworks */,
 				A838A17D1283908B8DC9BDE4 /* Pods_NSW_Covid19.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B55CA868243360D500389837 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87860281C1DB61C9491BB881 /* Pods_DataNSW.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -168,7 +144,6 @@
 		B55CA829243358CF00389837 = {
 			isa = PBXGroup;
 			children = (
-				B55CA86C243360D500389837 /* DataNSW */,
 				B55CA834243358CF00389837 /* NSW Covid19 */,
 				B55CA84B243358D200389837 /* NSW Covid19Tests */,
 				B55CA856243358D200389837 /* NSW Covid19UITests */,
@@ -184,7 +159,6 @@
 				B55CA832243358CF00389837 /* NSW Covid19.app */,
 				B55CA848243358D200389837 /* NSW Covid19Tests.xctest */,
 				B55CA853243358D200389837 /* NSW Covid19UITests.xctest */,
-				B55CA86B243360D500389837 /* libDataNSW.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +166,10 @@
 		B55CA834243358CF00389837 /* NSW Covid19 */ = {
 			isa = PBXGroup;
 			children = (
+				B55CA8722433617100389837 /* API */,
+				B55CA8732433618200389837 /* Extensions */,
+				B55CA8742433618A00389837 /* Models */,
+				B591B7CF245262820042F5E8 /* CoreData */,
 				B58B293B244EEFE000279995 /* Extensions */,
 				B55CA835243358CF00389837 /* AppDelegate.swift */,
 				B55CA837243358CF00389837 /* SceneDelegate.swift */,
@@ -223,17 +201,6 @@
 			path = "NSW Covid19UITests";
 			sourceTree = "<group>";
 		};
-		B55CA86C243360D500389837 /* DataNSW */ = {
-			isa = PBXGroup;
-			children = (
-				B55CA8722433617100389837 /* API */,
-				B55CA8732433618200389837 /* Extensions */,
-				B55CA8742433618A00389837 /* Models */,
-				B591B7CF245262820042F5E8 /* CoreData */,
-			);
-			path = DataNSW;
-			sourceTree = "<group>";
-		};
 		B55CA8722433617100389837 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,7 +223,8 @@
 				B55CA87B2433624900389837 /* UrlSession.swift */,
 				B58B2930244E8FE900279995 /* String.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = ../DataNSW/Extensions;
 			sourceTree = "<group>";
 		};
 		B55CA8742433618A00389837 /* Models */ = {
@@ -362,25 +330,6 @@
 			productReference = B55CA853243358D200389837 /* NSW Covid19UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		B55CA86A243360D500389837 /* DataNSW */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B55CA86F243360D500389837 /* Build configuration list for PBXNativeTarget "DataNSW" */;
-			buildPhases = (
-				1144983499F8985BD45C22EA /* [CP] Check Pods Manifest.lock */,
-				B55CA867243360D500389837 /* Sources */,
-				B55CA868243360D500389837 /* Frameworks */,
-				B55CA869243360D500389837 /* CopyFiles */,
-				B5308DDE2445D3F400DF1580 /* Run Swiftlint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DataNSW;
-			productName = DataNSW;
-			productReference = B55CA86B243360D500389837 /* libDataNSW.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -402,9 +351,6 @@
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = B55CA831243358CF00389837;
 					};
-					B55CA86A243360D500389837 = {
-						CreatedOnToolsVersion = 11.1;
-					};
 				};
 			};
 			buildConfigurationList = B55CA82D243358CF00389837 /* Build configuration list for PBXProject "NSW Covid19" */;
@@ -423,7 +369,6 @@
 				B55CA831243358CF00389837 /* NSW Covid19 */,
 				B55CA847243358D200389837 /* NSW Covid19Tests */,
 				B55CA852243358D200389837 /* NSW Covid19UITests */,
-				B55CA86A243360D500389837 /* DataNSW */,
 			);
 		};
 /* End PBXProject section */
@@ -456,28 +401,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1144983499F8985BD45C22EA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DataNSW-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4CCC35E28D18DD0A89F79851 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,24 +458,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		B5308DDE2445D3F400DF1580 /* Run Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Swiftlint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/Pods/SwiftLint/swiftlint\"\n";
-		};
 		E23EED2955A4FA7AF9F707AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -604,12 +509,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5584A39245AFB9900CC7DA1 /* DateFormatter.swift in Sources */,
 				B55CA83A243358CF00389837 /* ViewController.swift in Sources */,
 				B55CA836243358CF00389837 /* AppDelegate.swift in Sources */,
+				B5584A3B245AFB9900CC7DA1 /* KeyedDecodingContainer.swift in Sources */,
+				B5584A35245AFB9400CC7DA1 /* Location.swift in Sources */,
+				B5584A42245AFB9D00CC7DA1 /* UrlParameters.swift in Sources */,
+				B5584A36245AFB9400CC7DA1 /* Package.swift in Sources */,
 				B58B2939244EC79900279995 /* ViewModel.swift in Sources */,
+				B5584A34245AFB9400CC7DA1 /* AgeGroup.swift in Sources */,
+				B5584A40245AFB9D00CC7DA1 /* HttpClient.swift in Sources */,
 				B591B7CE2452624F0042F5E8 /* CovidDataModel.xcdatamodeld in Sources */,
 				B55CA838243358CF00389837 /* SceneDelegate.swift in Sources */,
+				B5584A38245AFB9900CC7DA1 /* CodingUserInfoKey.swift in Sources */,
+				B5584A41245AFB9D00CC7DA1 /* HttpError.swift in Sources */,
+				B5584A37245AFB9400CC7DA1 /* Source.swift in Sources */,
+				B5584A3C245AFB9900CC7DA1 /* UrlSession.swift in Sources */,
+				B5584A3A245AFB9900CC7DA1 /* DispatchQueue.swift in Sources */,
+				B5584A3D245AFB9900CC7DA1 /* String.swift in Sources */,
 				B58B293D244EEFE900279995 /* MKMapView.swift in Sources */,
+				B5584A3E245AFB9D00CC7DA1 /* LocationClient.swift in Sources */,
+				B5584A3F245AFB9D00CC7DA1 /* PackageClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,28 +546,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55CA858243358D200389837 /* NSW_Covid19UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B55CA867243360D500389837 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B55CA876243361A700389837 /* HttpClient.swift in Sources */,
-				B58B2931244E8FE900279995 /* String.swift in Sources */,
-				B58B292F244E8FC500279995 /* KeyedDecodingContainer.swift in Sources */,
-				B591B7D1245263810042F5E8 /* CodingUserInfoKey.swift in Sources */,
-				B55CA878243361B600389837 /* HttpError.swift in Sources */,
-				B55CA87E243363EB00389837 /* Location.swift in Sources */,
-				B58B2935244E939A00279995 /* UrlParameters.swift in Sources */,
-				B55CA88224336BC000389837 /* Source.swift in Sources */,
-				B5308DE02449EC7500DF1580 /* Package.swift in Sources */,
-				B58B292D244E8DCB00279995 /* DateFormatter.swift in Sources */,
-				B55CA8802433695C00389837 /* AgeGroup.swift in Sources */,
-				B55CA87C2433624900389837 /* UrlSession.swift in Sources */,
-				B58B292B244E8A3000279995 /* LocationClient.swift in Sources */,
-				B55CA87A2433623500389837 /* DispatchQueue.swift in Sources */,
-				B58B2928244E843A00279995 /* PackageClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,32 +818,6 @@
 			};
 			name = Release;
 		};
-		B55CA870243360D500389837 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 073371BC872DE1D305AFB4B6 /* Pods-DataNSW.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B55CA871243360D500389837 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570ECF771CB588584A230418 /* Pods-DataNSW.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -981,15 +853,6 @@
 			buildConfigurations = (
 				B55CA863243358D200389837 /* Debug */,
 				B55CA864243358D200389837 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B55CA86F243360D500389837 /* Build configuration list for PBXNativeTarget "DataNSW" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B55CA870243360D500389837 /* Debug */,
-				B55CA871243360D500389837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

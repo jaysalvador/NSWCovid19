@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreData
 
 /// function type for the return value
 /// `T` can be any model object to represent the response from JSON
@@ -34,23 +35,29 @@ public class HttpClient: HttpClientProtocol {
     private let baseUrl: String
     
     private let urlSession: URLSessionProtocol
+
+    let persistentContainer: NSPersistentContainer?
     
     /// Convenience init with the pre-assigned `baseUrl` and `urlSession`
-    public convenience init?() {
+    public convenience init?(persistentContainer _persistentContainer: NSPersistentContainer?) {
         
         self.init(
             baseUrl: "https://data.nsw.gov.au/data/api/3/action",
-            urlSession: URLSession.shared)
+            urlSession: URLSession.shared,
+            persistentContainer: _persistentContainer
+        )
     }
     
     /// Creates a custom instance of `HttpClient`
     /// - Parameter _baseUrl: path of the API
     /// - Parameter _urlSession: `URLSession` Object
-    init(baseUrl _baseUrl: String, urlSession _urlSession: URLSessionProtocol) {
+    init(baseUrl _baseUrl: String, urlSession _urlSession: URLSessionProtocol, persistentContainer _persistentContainer: NSPersistentContainer?) {
         
         self.baseUrl = _baseUrl
         
         self.urlSession = _urlSession
+        
+        self.persistentContainer = _persistentContainer
     }
     
     /// Creates an HTTP request to a particular service endpoint
@@ -110,12 +117,24 @@ public class HttpClient: HttpClientProtocol {
                 if let data = data {
                     
                     do {
+                        guard let codingUserInfoKeyManagedObjectContext = CodingUserInfoKey.managedObjectContext else {
+                            
+                            onCompletion?(.failure(HttpError.coredata))
+                            
+                            return
+                        }
+                        
+                        let managedObjectContext = self.persistentContainer?.viewContext
                         
                         let decoder = JSONDecoder()
+
+                        decoder.userInfo[codingUserInfoKeyManagedObjectContext] = managedObjectContext
                         
                         decoder.dateDecodingStrategy = .formatted(.dateAndTime)
                         
                         let decoded = try decoder.decode(returnType, from: data)
+                        
+                        try managedObjectContext?.save()
                         
                         DispatchQueue.main.async {
                                                         

@@ -13,8 +13,8 @@ public class Package: NSManagedObject, Codable {
     
     public static let casesByLocationAndSource: String = "nsw-covid-19-cases-by-location-and-likely-source-of-infection"
     
-    public var id: String?
-    public var name: String?
+    @NSManaged public var id: String?
+    @NSManaged public var name: String?
     
     enum CodingKeys: String, CodingKey {
         
@@ -31,7 +31,7 @@ public class Package: NSManagedObject, Codable {
             let managedObjectContext = decoder.userInfo[codingUserInfoKeyManagedObjectContext] as? NSManagedObjectContext,
             let entity = NSEntityDescription.entity(forEntityName: "Package", in: managedObjectContext) else {
                 
-            fatalError("Failed to decode User")
+            fatalError("Failed to decode Package")
         }
 
         self.init(entity: entity, insertInto: managedObjectContext)
